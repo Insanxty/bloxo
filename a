@@ -5037,15 +5037,15 @@ function OpenAboutPlayer(Player)
 			Domain.DomainRole.Visible = true
 		end
 		if Player:IsInGroup(15919491) then
-			Domain.DomainRole.Text = "Domain Premium"
+			Domain.DomainRole.Text = "Bloxo Premium"
 			Domain.DomainRole.Visible = true
 		end
 		if table.find(Admins,Player.UserId) then
-			Domain.DomainRole.Text = "Domain Staff"
+			Domain.DomainRole.Text = "Bloxo Staff"
 			Domain.DomainRole.Visible = true
 		end
 		if table.find(Developers,Player.UserId) then
-			Domain.DomainRole.Text = "Domain Developer"
+			Domain.DomainRole.Text = "Bloxo Developer"
 			Domain.DomainRole.Visible = true
 		end
 		for _, customtitle in ipairs(customtitles) do
