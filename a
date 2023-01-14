@@ -3035,7 +3035,7 @@ Domain.ShlexLogo.BorderSizePixel = 0
 Domain.ShlexLogo.Position = UDim2.new(0.939696372, 0, 0.46847716, 0)
 Domain.ShlexLogo.Size = UDim2.new(0.0411427617, 0, 0.0735122114, 0)
 Domain.ShlexLogo.ZIndex = 5
-Domain.ShlexLogo.Image = "rbxassetid://6404488837"
+Domain.ShlexLogo.Image = "rbxassetid://0"
 
 Domain.SmallMessage.Name = "SmallMessage"
 Domain.SmallMessage.Parent = Domain.ServerhopAnim
