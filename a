@@ -5532,7 +5532,7 @@ function BootDomain()
 	StartUnfunctionals()
 	
 		if game.Players.LocalPlayer:IsInGroup(15919491) then
-			Notify("Welcome, "..Player.DisplayName.." to Domain Hub Premium","GothamSemibold",Color3.fromRGB(46, 136, 111))
+			Notify("Welcome, "..Player.DisplayName.." to Bloxo Hub Premium","GothamSemibold",Color3.fromRGB(46, 136, 111))
 
 			if theme and themedata and game.Players.LocalPlayer:IsInGroup(15919491) then
 
