@@ -1697,7 +1697,7 @@ Domain.Credits_3.Position = UDim2.new(0.042754259, 0, 0.945035338, 0)
 Domain.Credits_3.Size = UDim2.new(0.194060624, 0, 0.0415861197, 0)
 Domain.Credits_3.ZIndex = 1002
 Domain.Credits_3.Font = Enum.Font.GothamBold
-Domain.Credits_3.Text = "Bloxo V2"
+Domain.Credits_3.Text = "Domain V2"
 Domain.Credits_3.TextColor3 = Color3.fromRGB(122, 122, 122)
 Domain.Credits_3.TextScaled = true
 Domain.Credits_3.TextSize = 14.000
@@ -3035,7 +3035,7 @@ Domain.ShlexLogo.BorderSizePixel = 0
 Domain.ShlexLogo.Position = UDim2.new(0.939696372, 0, 0.46847716, 0)
 Domain.ShlexLogo.Size = UDim2.new(0.0411427617, 0, 0.0735122114, 0)
 Domain.ShlexLogo.ZIndex = 5
-Domain.ShlexLogo.Image = "rbxassetid://0"
+Domain.ShlexLogo.Image = "rbxassetid://6404488837"
 
 Domain.SmallMessage.Name = "SmallMessage"
 Domain.SmallMessage.Parent = Domain.ServerhopAnim
@@ -3560,6 +3560,16 @@ UniversalExploits = {
 		Colour = Color3.fromRGB(0, 85, 127),
 		Code = "https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua"
 	},
+	privhub = {
+		Name = "Bank's Hub",
+		Author = "Insanity",
+		Colour = Color3.fromRGB(0, 85, 127),
+		Code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Insanxty/privhub/main/hub'))()"
+	},
+	
+	
+	
+	
 }
 
 function OpenSidebar()
@@ -5037,15 +5047,15 @@ function OpenAboutPlayer(Player)
 			Domain.DomainRole.Visible = true
 		end
 		if Player:IsInGroup(15919491) then
-			Domain.DomainRole.Text = "Bloxo Premium"
+			Domain.DomainRole.Text = "Domain Premium"
 			Domain.DomainRole.Visible = true
 		end
 		if table.find(Admins,Player.UserId) then
-			Domain.DomainRole.Text = "Bloxo Staff"
+			Domain.DomainRole.Text = "Domain Staff"
 			Domain.DomainRole.Visible = true
 		end
 		if table.find(Developers,Player.UserId) then
-			Domain.DomainRole.Text = "Bloxo Developer"
+			Domain.DomainRole.Text = "Domain Developer"
 			Domain.DomainRole.Visible = true
 		end
 		for _, customtitle in ipairs(customtitles) do
@@ -5532,7 +5542,7 @@ function BootDomain()
 	StartUnfunctionals()
 	
 		if game.Players.LocalPlayer:IsInGroup(15919491) then
-			Notify("Welcome, "..Player.DisplayName.." to Bloxo Hub Premium","GothamSemibold",Color3.fromRGB(46, 136, 111))
+			Notify("Welcome, "..Player.DisplayName.." to Domain Hub Premium","GothamSemibold",Color3.fromRGB(46, 136, 111))
 
 			if theme and themedata and game.Players.LocalPlayer:IsInGroup(15919491) then
 
